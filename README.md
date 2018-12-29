@@ -19,3 +19,17 @@ main() {
             case '+':
                printf("%.2f\n", x+y);
                break;
+ case '-':
+               printf("%.2f\n", x-y);
+               break;
+            case '*':
+               printf("%.2f\n", x*y);
+               break;
+            case '/':
+               if (y != 0) printf("%.2f\n", x/y);
+               else printf("Деление на ноль!\n");
+         }
+      }
+      else printf("Неверно указан знак операции\n");
+   }
+}
